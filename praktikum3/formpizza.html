@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Pizza</title>
+</head>
+
+<body>
+    <!-- Buat Heading? -->
+    <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+    <!-- Buat Paragraf -->
+    <p>Our 12"wood-fired pizzas are available for delivery. Build your costum pizza and we'll it within an hour</p>
+    <!-- Buat Garis Pembatas -->
+    <hr>
+
+    <!-- Buat Form -->
+    <form>
+        <!-- Pembungkus Konten -->
+        <fieldset>
+            <!-- Buat Table -->
+            <table>
+                <thead>
+                    <!-- Buat 1 baris isi judul -->
+                    <tr>
+                        <!-- 2 Kolom Dijadiin 1 -->
+                        <th colspan="2">Your Information</th>
+                </thead>
+                <tbody>
+                    <!-- Buat 5 baris isi konten -->
+                    <tr>
+                        <!-- Buat 2 Kolom -->
+                        <td>
+                            <!-- Deskripsi Inputan -->
+                            <label for="">Name</label>
+                        </td>
+                        <td>
+                            <!-- inputan -->
+                            <input type="text" id="name">
+                        </td>
+                    </tr>
+
+                    <!-- buat address -->
+                    <tr>
+                        <td>
+                            <label for="address">Address </label>
+                        </td>
+                        <td>
+                            <input type="address" id="address">
+                    </tr>
+
+                    <!-- Buat No Telepon -->
+                    <tr>
+                        <td>
+                            <label for="telephone">Telephone Number</label>
+                        </td>
+                        <td>
+                            <input type="number" id="telephone">
+                        </td>
+                    </tr>
+
+                    <!-- Buat Email -->
+                    <tr>
+                        <td>
+                            <label for="Email">Email</label>
+                        </td>
+                        <td>
+                            <input type="email" id="email">
+                        </td>
+                    </tr>
+
+                    <!-- Delivery Instruktion -->
+                    <tr>
+                        <td>
+                            <label for="Delivery Instruktion">Delivery Instruktion</label>
+                        </td>
+                        
+                        <td><textarea type="text" id="description" cols="30" rows="10"></textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Design Your Dream Pizza</b></legend>
+            <h4>crust(choose one)</h4>
+            <!-- Buat List -->
+            <ul style="list-style-type: none;"></ul>
+            <!-- Jenis Classic White -->
+            <li>
+                <input type="radio" id="white">
+                <label for="">Mulrigrain</label>
+            </li>
+            <!-- Jenis Unamelt -->
+            <li>
+                <input type="radio" id="white">
+                <label for="">Chesee-stuffed crust</label>
+            </li>
+            <!-- Jenis Glutten Free -->
+            <li>
+                <input type="radio" id="gultten" name="crust">
+                <label for="glutten">Glutten Free</label>
+            </li>
+            </ul>
+            <!-- Toping Pizza -->
+            <h4>Toppings (Chose as many as you want)</h4>
+
+            <!-- Buat List Topping Pizza -->
+            <li>
+                <input type="Checkbox" id="red-sauce">
+                <label for="Red-sauce">Red Sauce</label>
+            </li>
+            <li>
+                <input type="Checkbox" id="white-sauce">
+                <label for="White-sauce">White Sauce</label>
+            </li>
+            <li>
+                <input type="checkbox" id="Paperroni">
+                <label for="Paperroni">Paperroni</label>
+            </li>
+            <li>
+                <input type="Checkbox" id="Mushroom">
+                <label for="Mushroom">Mushroom</label>
+            </li>
+            <li>
+                <input type="checkbox" id="Peppers">
+                <label for="Peppers">Peppers</label>
+            </li>
+            <li>
+                <input type="checkbox" id="Anchavies">
+                <label for="Anchavies">Anchavies</label>
+            </li>
+
+            <h4>Number</h4>
+            <h4>Toppings (Choose as many as you want):</h4>
+                <ul style="list-style-type: none;">
+                    <li>    
+                        <input type="checkbox" id="white-sauce">
+                        <label for="white-sauce">White Sauce</label>
+                    </li>
+                    <li>    
+                        <input type="checkbox" id="mozarela">
+                        <label for="mozarela">Mozarella Cheese</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="basket">
+                        <label for="basket">Pepprerani</label>       
+                    </li>
+                    <li>    
+                        <input type="checkbox" id="jamur">
+                        <label for="jamur">Mushrooms</label>
+                    </li>
+                    <li>    
+                        <input type="checkbox" id="paprika">
+                        <label for="paprika">Peppers</label>
+                    </li>
+                    <li>    
+                        <input type="checkbox" id="ancor">
+                        <label for="ancor">Anchories</label>
+                    </li>
+                    <li>    
+                        <input type="checkbox" id="nanas">
+                        <label for="nanas">Pineapple</label>
+                    </li>
+                
+                <h4>Number</h4>
+                <label for="count">How many Pizzas: </label>
+                <input type="number" id="count">
+                    <br>
+                    <br>
+                <button type="submit">Bring me a Pizza</button>
+                <button type="reset">Reset</button>
+
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                </tbody>
+                </table>
+        </fieldset>
+        <form>
+
+</body>
+
+</html>
